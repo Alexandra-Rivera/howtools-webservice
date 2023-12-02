@@ -12,7 +12,7 @@ database.connect();
 //logger de las requests
 app.use(logger('dev'));
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors());
 
 //Parser
 app.use(express.json());
