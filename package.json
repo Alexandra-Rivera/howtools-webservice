@@ -2,10 +2,10 @@
   "name": "howtools-webservice",
   "version": "0.0.0",
   "private": true,
-  "main": "app.js",
+  "main": "./bin/www",
   "scripts": {
-    "start": "node app.js",
-    "dev": "DEBUG=app:* nodemon app.js"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",
