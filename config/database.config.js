@@ -5,7 +5,7 @@ const debug = require('debug')('app:database');
 // const dbport = process.env.DBPORT || '27020';
 // const dbname = process.env.DBNAME || 'howtools-database';
 
-// const dburi = process.env.DBURI || `mongodb://${dbhost}:${dbport}/${dbname}`; //Esto lo vamos a cambiar por una cadena de conexion en mongo atlas 
+// const dburi = process.env.DBBURI || `mongodb://${dbhost}:${dbport}/${dbname}`; //Esto lo vamos a cambiar por una cadena de conexion en mongo atlas 
 
 const dburi = process.env.DBBURI; 
 
